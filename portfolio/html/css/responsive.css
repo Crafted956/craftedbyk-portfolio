@@ -1,0 +1,256 @@
+
+@media (min-width:120px) and (max-width:850px) {
+
+
+.site-title{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hamburger{
+    display: flex;
+}
+
+.navigation-bar{
+    display: none;
+}
+
+
+#header-wrapper h1{
+font-size: 0.99rem;
+}
+
+.action-btn a{
+font-size: 0.99rem;
+padding: 1px 2px;
+font-weight: 800;
+}
+
+
+.hompe-wrapper{
+    flex-direction: column;
+}
+
+.left-pannel{
+    width: 100%;
+}
+
+.right-pannel{
+    width: 100%;
+}
+
+.heading-line h1{
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+.home-page-action-btn{
+    width: 100%;
+}
+
+.primary-btn{
+    padding: 5px;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
+.hero-visual{
+    width: 100%;
+}
+
+
+.label{
+    font-size: 10px;
+}
+
+.lable-heading{
+    font-size: 15px;
+}
+
+
+.card-container{
+    flex-direction: column;
+}
+
+
+.cards{
+    width: auto;
+}
+
+
+#showCase-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inner-about{
+    flex-direction: column;
+}
+
+.left-about-details{
+    width: 100%;
+}
+
+.left-about-details-heading{
+    font-size: 1.5rem;
+}
+
+.about-para{
+    font-size: 13px;
+}
+
+.details-project{
+    width: 40%;
+    padding: 10px;
+}
+
+
+.focus-1{
+    font-size: 10px;
+}
+
+.available{
+    width: 100%;
+}
+
+
+.numbers{
+  font-size: 15px
+
+}
+
+.project-title{
+    font-size: 12px;
+}
+
+
+.right-about-details{
+    width: 100%;
+    flex-direction: column;
+}
+
+.right-about-details{
+     width: 70%;
+     margin: auto;
+}
+
+.inner-right-about{
+  width: 30%;
+  margin: auto;
+}
+
+.special-k{
+    font-size: 5rem;
+}
+
+.contact-intro{
+    font-size: 12px;
+}
+
+
+.contact-section-container{
+    flex-direction: column;
+}
+
+.left-side-contact-form{
+    width: 100%;
+}
+
+.social-icons{
+    width: 100%;
+}
+
+
+.right-side-form{
+    width: 100%;
+}
+
+form, label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input, textarea{
+    width: 90%;
+}
+
+
+
+.fotter-inner{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom-line{
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   width: 100%;
+}
+
+
+.hight-light{
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+/* ==========Tab-view============ */
+
+@media (min-width: 851px) and (max-width: 1100px){
+    
+
+    .site-title{
+    display: flex;
+}
+
+
+#header-wrapper h1{
+font-size: 0.99rem;
+}
+
+.card-container {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#showCase-container{
+     flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+
+
+.cards{
+    width: 10%;
+}
+
+
+
+
+}
