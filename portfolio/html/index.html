@@ -1,1 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <!-- =========================
+         BASIC DOCUMENT SETTINGS
+    ========================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========================
+         SEO
+    ========================== -->
+
+
+
+    <title>
+        CraftedByK | Web Development & Digital Marketing
+    </title>
+
+
+
+    <meta name="description"
+        content="CraftedByK provides modern web development, WordPress websites, SEO and digital marketing solutions to help businesses grow online.">
+
+    <meta name="keywords"
+        content="web development, WordPress, website design, digital marketing, SEO, business website, CraftedByK">
+
+    <meta name="author" content="CraftedByK">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- =========================
+         CANONICAL URL
+    ========================== -->
+
+    <link rel="canonical" href="https://craftedbyk.netlify.app/">
+
+    <!-- =========================
+         OPEN GRAPH / SOCIAL SHARE
+    ========================== -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="CraftedByK | Web Development & Digital Marketing">
+
+    <meta property="og:description"
+        content="Modern websites, WordPress solutions and digital marketing for businesses ready to grow online.">
+
+    <meta property="og:url" content="https://craftedbyk.netlify.app/">
+
+    <meta property="og:site_name" content="CraftedByK">
+
+    <!-- =========================
+         THEME
+    ========================== -->
+
+    <meta name="theme-color" content="#0A0A0B">
+
+    <!-- =========================
+         FAVICON
+    ========================== -->
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- =========================
+         FONTS
+    ========================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/craftedbyk-favicon-icon.svg">
+
+    <!-- =========================
+         STYLESHEET
+    ========================== -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/flame-animation.css">
+    <link rel="stylesheet" href="css/mobilemenu.css">
+
+</head>
+
+
+<style>
+
+    .page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.page-loader.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader-k {
+  position: relative;
+  color: var(--color-accent);
+  font-size: 5rem;
+  font-weight: 800;
+  text-shadow:
+    0 0 10px var(--color-accent),
+    0 0 30px var(--color-accent);
+  animation: loaderEnergy 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes loaderEnergy {
+  from {
+    transform: scale(0.92);
+    text-shadow:
+      0 0 8px var(--color-accent),
+      0 0 20px var(--color-accent);
+  }
+
+  to {
+    transform: scale(1.08);
+    text-shadow:
+      0 0 15px var(--color-accent),
+      0 0 40px var(--color-accent);
+  }
+}
+</style>
+
+
+<body>
+
+    <!-- site loader -->
+
+    <div class="page-loader">
+  <span class="loader-k">K</span>
+</div>
+
+    <!-- =========================
+         WEBSITE CONTENT
+    ========================== -->
+
+
+    <header>
+
+        <div class="site-title" id="header-wrapper">
+           <div class="logo">
+    <a href="index.html" style="text-decoration: none;"><h1><span class="k">K</span>CraftedByK</h1></a></div>
+            <nav class="navigation-bar" navMenu>
+
+                <!-- Main-manu -->
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Main-manu -->
+
+
+
+            <!-- CTA-Button -->
+
+            <div class="hire-me" id="cta">
+                <div class="action-btn"><a href="#contact">Hire Me</a></div>
+            </div>
+
+
+
+            <!------------------Mobile-menu------- -->
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="hompe-page" id="front-page">
+                <div class="hompe-wrapper">
+                    <div class="left-pannel">
+
+                        <!-- available-line -->
+                        <div class="available">
+                            <div class="status-dot"></div>
+                            <p class="available-tag-line">
+                                AVAILABLE FOR PROJECTS
+                            </p>
+                        </div>
+
+                        <!-- heading-line -->
+
+                        <div class="heading-line">
+                            <h1>Crafting Digital Experiences That Move Businesses Forward.</h1>
+                        </div>
+
+                        <!-- heading-line -->
+
+                        <!-- Left-panel-btn -->
+
+                        <div class="home-page-action-btn">
+                            <button class="primary-btn"><a href="/">Hire Me</a></button>
+                            <button class="secondary-btn"><a href="#work">View My Work</a></button>
+                        </div>
+
+                        <!-- hight-light -->
+
+                        <div class="hight-light">
+                            <p>
+                                WEB DEVELOPMENT · DIGITAL MARKETING · SEO
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="right-pannel">
+                        <div class="hero-visual">
+
+                            <div class="visual-grid"></div>
+
+                            <div class="visual-card">
+
+                                <span class="visual-label">CRAFTEDBYK</span>
+
+                                <div class="visual-mark">K</div>
+
+                                <div class="visual-bottom">
+                                    <span>WEB</span>
+                                    <span>DIGITAL</span>
+                                    <span>SEO</span>
+                                </div>
+
+                            </div>
+
+                            <div class="floating-card">
+                                <span class="status-dot"></span>
+                                AVAILABLE
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container-wrapper reveal">
+                <p class="label reveal">
+                    SERVICES
+                </p>
+
+                <h2 class="lable-heading reveal">Digital solutions built for modern businesses.</h2>
+
+                <!-- card-container -->
+
+                <div class="card-container reveal">
+
+                    <div class="cards">
+                        <span class="series">01</span>
+                        <h3 class="heading-crad-title">Web Development</h3>
+                        <p class="card-description">
+                            I create clean, fast, and responsive websites that look great and work smoothly on every
+                            device.
+                        </p>
+                        <div class="arrow">
+                            <div class="card-action-icon">
+                                <i data-lucide="arrow-up-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <span class="series">02</span>
+                        <h3 class="heading-crad-title">Digital Marketing</h3>
+                        <p class="card-description">
+                            I help your business reach the right people online with simple, practical marketing that
+                            gets results.
+                        </p>
+                        <div class="arrow">
+                            <div class="card-action-icon">
+                                <i data-lucide="arrow-up-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <span class="series">03</span>
+                        <h3 class="heading-crad-title">SEO</h3>
+                        <p class="card-description">
+                            I help your website show up in search, reach more people, and bring in the right visitors
+                            organically.
+                        </p>
+                        <div class="arrow">
+                            <div class="card-action-icon">
+                                <i data-lucide="arrow-up-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <span class="series">04</span>
+                        <h3 class="heading-crad-title">Website Maintenance</h3>
+                        <p class="card-description">
+                            I keep your website updated, secure, and running smoothly so you can focus on your business.
+                        </p>
+                        <div class="arrow">
+                            <div class="card-action-icon">
+                                <i data-lucide="arrow-up-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Work Section -->
+       <section id="work">
+  <div class="container-wrapper">
+
+    <p class="label reveal">Selected Work</p>
+
+    <h2 class="lable-heading reveal">A glimpse of what I can create.</h2>
+
+    <div class="card-container" id="showCase-container">
+
+      
+
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/images/projects/luxe-salon-img.png" alt="salon-img" class="card-images">
+          </div>
+          <h3 class="heading-crad-title" id="custom-lable">LUXE SALON</h3>
+          <p class="card-description">
+            Luxury beauty experiences, crafted with elegance.
+          </p>
+          <div class="arrow">
+            <div class="card-action-icon">
+              <i data-lucide="arrow-up-right"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/images/projects/AURELIA-REALTY.png" alt="Real-state-img" class="card-images">
+          </div>
+          <h3 class="heading-crad-title" id="custom-lable">AURELIA REALTY</h3>
+          <p class="card-description">
+            Modern spaces, thoughtfully presented for a premium living experience.
+          </p>
+          <div class="arrow">
+            <div class="card-action-icon">
+              <i data-lucide="arrow-up-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/images/projects/NOIR-CAFÉ.png" alt="Cafe-store-img" class="card-images">
+          </div>
+          <h3 class="heading-crad-title" id="custom-lable">NOIR CAFÉ</h3>
+          <p class="card-description">
+            A warm, modern café experience designed for good coffee and good conversations.
+          </p>
+          <div class="arrow">
+            <div class="card-action-icon">
+              <i data-lucide="arrow-up-right"></i>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container-wrapper reveal">
+                <p class="label reveal">
+                    ABOUT ME
+                </p>
+
+                <!-- <h2 class="lable-heading">I build digital experiences with purpose.</h2> -->
+
+                <div class="about-container">
+                    <div class="inner-about">
+                        <div class="left-about-details">
+                            <h2 class="left-about-details-heading">I build digital experiences that help businesses
+                                grow.</h2>
+                            <p class="about-para">
+                                I’m a web developer who enjoys turning ideas into clean, modern websites. I focus on
+                                making websites that look good, feel easy to use, and help businesses build a stronger
+                                online presence.
+                            </p>
+
+
+                            <div class="focus-idea">
+                                <p class="focus-1"><i class="fa-solid fa-check"></i>Clean & Modern Design</p>
+                            </div>
+
+                            <div class="focus-idea">
+                                <p class="focus-1"><i class="fa-solid fa-check"></i>User-Focused Experience</p>
+                            </div>
+
+                            <div class="focus-idea">
+                                <p class="focus-1"><i class="fa-solid fa-check"></i>Built for Business Growth</p>
+                            </div>
+
+                            <!-- client-details -->
+
+                            <div class="client-details-container">
+
+                                <!-- <div class="inner-project-about-details"> -->
+
+                                <div class="details-project">
+                                    <strong class="numbers">10+</strong>
+                                    <span class="project-title"> Projects </span>
+                                    <span class="project-title"> Completed </span>
+                                </div>
+
+                                <div class="details-project">
+                                    <strong class="numbers">2+</strong>
+                                    <span class="project-title"> Years </span>
+                                    <span class="project-title"> Experience </span>
+                                </div>
+
+                                <div class="details-project">
+                                    <strong class="numbers">100%</strong>
+                                    <span class="project-title"> Client </span>
+                                    <span class="project-title"> Commitment </span>
+                                </div>
+                            </div>
+
+                            <!-- </div> -->
+
+                        </div>
+
+                        <div class="right-about-details">
+                            <div class="inner-right-about">
+                                <span class="special-k">K</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container-wrapper">
+                <p class="label">
+                    Contact
+                </p>
+
+                <p class="contact-intro">
+                    Have a project in mind? I’d love to hear about it. Tell me what you’re looking to build, and let’s
+                    see how we can make it happen.
+                </p>
+
+                <div class="contact-section-container">
+
+                <div class="left-side-contact-form">
+                    
+<p class="contact-line">Let's build something meaningful together.</p>
+
+<div class="available">
+                            <div class="status-dot"></div>
+                            <p class="available-tag-line">
+                                AVAILABLE FOR PROJECTS
+                            </p>
+                        </div>
+
+                        <div class="social-icons">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <a href="https://github.com/Crafted956/craftedbyk-portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+
+
+                <div class="right-side-form">
+                    <div class="contact-form">
+                         <form name="contact" method="POST" data-netlify="true" action="thank-you.html" id="contactForm">
+
+    <input type="hidden" name="form-name" value="contact">
+
+    <label for="name">Name</label>
+    <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Please enter your name"
+        required
+    >
+
+    <label for="email">Email</label>
+    <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Please enter your email"
+        required
+    >
+
+    <label for="phone">Phone Number</label>
+    <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Please enter your mobile number"
+        required
+    >
+
+    <label for="project">Project Details</label>
+    <textarea
+        id="project"
+        name="project"
+        placeholder="Tell me about your project"
+        required
+    ></textarea>
+
+    <button type="submit" class="action-btn">
+        Send Message
+    </button>
+
+</form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="fotter-bottom">
+
+  <div class="fotter-inner">
+
+    <div class="footer-brand">
+      <a href="#">
+        <span class="k">K</span>CraftedByK
+      </a>
+      <p>Crafting digital experiences that move businesses forward.</p>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-socials">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Crafted956/craftedbyk-portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <div class="footer-bottom-line">
+      <span>© 2026 CraftedByK</span>
+      <span>All rights reserved.</span>
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+    <script src="js/script.js" defer></script>
+    <script src="js/validation.js"></script>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+   document.addEventListener("click", (e) => {
+  if (
+    !hamburger.contains(e.target) &&
+    !navMenu.contains(e.target)
+  ) {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+});
+</script>
+
+
+<script>
+
+const revealElements = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+revealElements.forEach((element) => {
+    observer.observe(element);
+});
+
+</script>
+
+
+</body>
+
+</html>
